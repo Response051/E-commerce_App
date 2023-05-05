@@ -1,0 +1,14 @@
+.btn {
+  width: 343px;
+  height: 48px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-top: 1em;
+}
+.btn {
+  background-color: #db3022;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: monospace;
+}

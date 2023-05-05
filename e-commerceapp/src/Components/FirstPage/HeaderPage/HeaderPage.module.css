@@ -1,0 +1,11 @@
+.p {
+  padding-top: 2.5em;
+  padding-bottom: 0px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.p {
+  text-align: left;
+  position: relative;
+  left: 20px;
+}
