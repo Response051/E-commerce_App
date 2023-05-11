@@ -1,17 +1,26 @@
 .App {
   text-align: center;
+  box-sizing: border-box;
 }
 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.Appjs-PrimaryStructure {
+  border: 2px solid blue;
+  padding: 0px 5rem;
+}
+
 /* link1 and link2 are for the forgot password and signup */
 .link1,
 .link2 {
@@ -20,32 +29,43 @@
   font-size: 14px;
   font-family: monospace;
 }
+
 .link1 {
   text-align: right;
 }
-.link2 {
+
+.link2,
+.icon-flex {
   margin-top: 5em;
+  align-items: center;
   text-align: center;
 }
+
 .icon {
   margin-left: 2.5em;
   margin-right: 2.5em;
-  margin-top: 2em;
+  /* margin-top: 2em; */
+
   width: 52px;
   height: 32px;
+  border: 1px solid yellowgreen;
 }
+
 .icon:hover {
   color: rgb(143, 98, 98);
 }
+
 .icon1 {
   color: red;
   margin-left: 1em;
   width: 15px;
   height: 15px;
 }
+
 .icon2 {
   color: #e95252;
 }
+
 .icon3 {
   color: blue;
 }

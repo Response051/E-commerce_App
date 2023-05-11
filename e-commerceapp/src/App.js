@@ -6,12 +6,13 @@ import ForgetPasswordPage from "./Components/FirstPage/ForgetPasswordPage";
 
 function App() {
   return (
-    
-    <Routes>
-      <Route index element={<SignUpPage />} />
-      <Route path="Login" element={<LoginPage />} />
-      <Route path="ForgetPasswordPage" element={<ForgetPasswordPage />} />
-    </Routes>
+    <div className="Appjs-PrimaryStructure">
+      <Routes>
+        <Route index element={<SignUpPage />} />
+        <Route path="Login" element={<LoginPage />} />
+        <Route path="ForgetPasswordPage" element={<ForgetPasswordPage />} />
+      </Routes>
+    </div>
   );
 }
 

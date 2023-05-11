@@ -24,7 +24,10 @@ function SignUpPage() {
       <Button props="Sign-Up" />
       <br />
       <p className="link2">Or sign Up with our Social media Accounts</p>
-      <FaGoogle className="icon icon2" /> <FaFacebook className="icon icon3" />
+      <div className="icon-flex">
+        <FaGoogle className="icon icon2" />{" "}
+        <FaFacebook className="icon icon3" />{" "}
+      </div>
       <Outlet />
     </>
   );
