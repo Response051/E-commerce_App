@@ -1,11 +1,13 @@
 .p {
-  padding-top: 2.5em;
+  padding-top: 0.5em;
   padding-bottom: 0px;
-  font-size: 22px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.p {
-  text-align: left;
-  position: relative;
-  left: 20px;
+
+  /* Font weight */
+  font-family: "Metropolis";
+  font-size: 34px;
+  line-height: 34px;
+  font-weight: 400;
+
+  /* Black */
+  color: #222222;
 }

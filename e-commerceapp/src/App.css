@@ -17,7 +17,6 @@
 }
 
 .Appjs-PrimaryStructure {
-  border: 2px solid blue;
   padding: 0px 5rem;
 }
 
@@ -44,11 +43,10 @@
 .icon {
   margin-left: 2.5em;
   margin-right: 2.5em;
-  /* margin-top: 2em; */
+  margin-top: 0.5em;
 
   width: 52px;
   height: 32px;
-  border: 1px solid yellowgreen;
 }
 
 .icon:hover {
