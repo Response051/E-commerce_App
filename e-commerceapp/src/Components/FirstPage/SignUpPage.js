@@ -9,7 +9,7 @@ import HeaderPage from "./HeaderPage/HeaderPage";
 
 function SignUpPage() {
   return (
-    <>
+    <div className="Appjs-PrimaryStructure">
       <HeaderPage props="SignUp" />
       <FirstName />
       <Email />
@@ -29,7 +29,7 @@ function SignUpPage() {
         <FaFacebook className="icon icon3" />{" "}
       </div>
       <Outlet />
-    </>
+    </div>
   );
 }
 

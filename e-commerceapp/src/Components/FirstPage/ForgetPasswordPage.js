@@ -6,11 +6,11 @@ import HeaderPage from "./HeaderPage/HeaderPage";
 
 export default function ForgetPasswordPage() {
   return (
-    <>
+    <div className="Appjs-PrimaryStructure">
       <HeaderPage props="Forgort Password!" />
       <Email />
       <Password />
       <Button props="Send" />
-    </>
+    </div>
   );
 }

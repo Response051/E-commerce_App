@@ -7,7 +7,7 @@ import Visual from "./Components/Visual-Search-Page/Visual";
 
 function App() {
   return (
-    <div className="Appjs-PrimaryStructure">
+    <div>
       {/* the routes are the main file here,, plsease ensure u reimplement the ,broswerRouter in the index.js */}
       {/* <Routes>
         <Route index element={<SignUpPage />} />

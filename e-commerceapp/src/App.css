@@ -48,22 +48,60 @@
   width: 52px;
   height: 32px;
 }
-
 .icon:hover {
   color: rgb(143, 98, 98);
 }
-
 .icon1 {
   color: red;
   margin-left: 1em;
   width: 15px;
   height: 15px;
 }
-
 .icon2 {
   color: #e95252;
 }
-
 .icon3 {
   color: blue;
+}
+/* Visual-page-section */
+
+.Visual-Button {
+  position: relative;
+  top: 90px;
+  left: 7.5em;
+}
+
+.img {
+  /* position: fixed; */
+  background-image: url(../src/Components/asserts/Images/woman-bags.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Visual-Div {
+  margin: 0px 20rem;
+  padding-top: 10%;
+}
+.Visual-Div > p {
+  position: relative;
+  left: 8rem;
+
+  width: 329px;
+  height: 87px;
+
+  /* Headline 2 */
+
+  font-family: "Metropolis";
+  font-size: 24px;
+  line-height: 120%;
+
+  /* black */
+
+  color: #ffffff;
+}
+
+.visual-headerpage {
+  text-align: center;
+  margin-bottom: -25px;
 }
